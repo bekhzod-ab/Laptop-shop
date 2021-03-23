@@ -1,0 +1,57 @@
+{
+  "products": [
+    {
+      "articleNo": "pc-0001",
+      "name": "Dell PC 2021",
+      "description": "super-fast and not-so-reliable machine that takes care of your daily dosis of crashes",
+      "price": 899.99
+    },
+    {
+      "articleNo": "hw-0002",
+      "name": "Lenovo ThinkPad",
+      "description": "high-end-business notebook for the power-user who does not need a working computer at all",
+      "price": 1295.95
+    },
+    {
+      "articleNo": "hw-0003",
+      "name": "MacBook Pro",
+      "description": "beautifully designed, pricey aluminum block. comes with an apple sticker for your car!",
+      "price": 3299.95
+    },
+    {
+      "articleNo": "hw-0004",
+      "name": "HP Spectre Convertible",
+      "description": "extremely performant notebook that converts to a bulky tablet for users with strong arms and huge hands",
+      "price": 1800
+    }
+  ],
+  "users": [
+    {
+      "username": "Khabib",
+      "email": "thEagle@mail.com",
+      "password": "Khabib"
+    },
+    {
+      "username": "Conor",
+      "email": "notorious@mail.com",
+      "password": "Conor"
+    },
+    {
+      "username": "John",
+      "email": "john_bones@mail.com",
+      "password": "John"
+    },
+    {
+      "id": "545278b5-57fd-4e40-9d10-87439cb5620e",
+      "username": "Bekzod",
+      "email": "bekzod@mail.com",
+      "password": "cae654d78eea243aa4abd38b083685bdc274c6c7cdc759ba384436926ec59956"
+    },
+    {
+      "id": "7c81f288-b79c-4312-ba67-cdc291ee8199",
+      "username": "Waell",
+      "email": "wael@mail.com",
+      "password": "70ee8d8390118a168dfbb1900a48818953273e2d922efb510991ace10334ba99"
+    }
+  ]
+}
