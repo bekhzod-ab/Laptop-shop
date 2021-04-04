@@ -39,10 +39,10 @@ export default function Products({loggedIn}) {
       else {  
           return (
         <div>
-            <nav className="navbar navbar-light bg-light">
-                <form className="form-inline">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search by Name" aria-label="Search" value={inputSearch} onChange={(event)=>{setInput(event.target.value)}}></input><br/>
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={searchByName}>Search</button>
+            <nav >
+                <form className="search">
+                    <input type="search" className="form-control w-25" placeholder="Search by Name" aria-label="Search" value={inputSearch} onChange={(event)=>{setInput(event.target.value)}}></input><br/>
+                    <button type="submit" onClick={searchByName}>Search</button>
                 </form>
             </nav><br/>
             <Productlist products={products}/> 

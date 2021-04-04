@@ -26,19 +26,21 @@ function App() {
   }
 
   return (
-    <div className="App">
-      
-      <ul>
-        {(loggedIn) ? 
-        <li><NavLink exact activeClassName ="active text-success" to="/signout" onClick={SignOut}>Sign Out</NavLink></li> 
-        :
-        <li><NavLink exact activeClassName ="active text-success" to="/login">Login</NavLink></li> }
-        
-        <li><NavLink exact activeClassName ="active text-success" to="/signup">Sign Up</NavLink></li>
-        <li><NavLink exact activeClassName ="active text-success" to="/products">Our Products</NavLink></li>
-        <li><NavLink exact activeClassName ="active text-success" to="/">Home</NavLink></li>
-      </ul>
-      
+    <div>
+      <header>
+        <nav>
+          <ul class="nav__links">
+            <li><NavLink className="nav__link" exact to="/">Home</NavLink></li>
+            {(loggedIn) ? 
+            <li><NavLink className="nav__link" exact to="/signout" onClick={SignOut}>Sign Out</NavLink></li> 
+            :
+            <li><NavLink className="nav__link" exact to="/login">Login</NavLink></li> }
+            
+            <li><NavLink className="nav__link" exact to="/signup">Sign Up</NavLink></li>
+            <li><NavLink className="nav__link" exact to="/products">Our Products</NavLink></li>
+          </ul>
+        </nav>
+      </header>
         <ProductsProvide>
           <Switch>
           

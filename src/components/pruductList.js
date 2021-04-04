@@ -10,10 +10,10 @@ function Productlist({products}) {
      
     return (
         
-            <ul className="list-group list-group-horizontal m-5">
+            <ul className="products__list">
                 {products.map((product , index) => {
-                    return <li key ={index} className="list-group-item">Name: {product.name}<br/>    
-                    <Link to={`/products/${product.articleNo}`}>More</Link></li>
+                    return <li key ={index} >Name: {product.name}<br/>    
+                    <Link className="nav__link" to={`/products/${product.articleNo}`}>More</Link></li>
                 })}
             </ul>
     )

@@ -38,7 +38,7 @@ export default function Login(props) {
             <input id="login" typex="text" placeholder="Login" required className="form-control" value={userName} onChange={(event)=>{setUsername(event.target.value)}}/><br/>
             
             <label>Password</label>
-            <input id="password" placeholder="Password" type="password" className="form-control" required value={passName} onChange={(event)=>{setPass(event.target.value)}}/>
+            <input id="password" placeholder="Password" type="password" className="form-control" required value={passName} onChange={(event)=>{setPass(event.target.value)}}/><br/>
 
             <input type="submit" value="Log in"/>
             {props.loggedIn ? <p className="text-success">Logged in</p> : <p>Not logged in</p>}
