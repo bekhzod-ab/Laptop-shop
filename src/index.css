@@ -42,6 +42,7 @@ button {
   padding: 9px 25px;
   background-color: rgba(0,136,169,1);
   border: none;
+  border-radius: 18%;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -70,3 +71,78 @@ code {
 }
 
 
+/* Home Page*/
+.h2tag {
+  text-align: center;
+  font-size: larger;
+}
+.container {
+  padding: 10px;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.card{
+  min-width: 300px;
+  width: 20%;
+  height: 50vh;
+  margin: 0 10px;
+  background-color: #24252a;
+  box-shadow: 2px 2px 10px rgb(110, 106, 106);
+  border-radius: 15px;
+}
+.card h3, p {
+  border-radius: 15px;
+  text-align: center;
+  color: antiquewhite;
+}
+.card p,ul,li {
+  font-size: 13px;
+  color: antiquewhite;
+  
+}
+label {
+  color: antiquewhite;
+}
+.card ul{
+  font-size: 15px;
+  font-weight: 700;
+}
+.card ul li {
+  list-style-type: none;
+  margin-left: -20px;
+}
+.false {
+  font-weight: bold;
+  color: rgb(224, 72, 72);
+}
+
+.sign_container{
+  display: flex;
+  justify-content: center;
+}
+.login_container{
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+     flex-direction: column;
+     align-items: center;
+   }
+   .card {
+     margin-top: 25px;
+
+   }
+ }
+
+
+ b {
+   color: lightgreen;
+ }

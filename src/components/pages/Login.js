@@ -33,15 +33,18 @@ export default function Login(props) {
     // } 
     
     return (
-        <form onSubmit={handleLogin} className="w-25">
-            <label>User Name</label>
-            <input id="login" typex="text" placeholder="Login" required className="form-control" value={userName} onChange={(event)=>{setUsername(event.target.value)}}/><br/>
-            
-            <label>Password</label>
-            <input id="password" placeholder="Password" type="password" className="form-control" required value={passName} onChange={(event)=>{setPass(event.target.value)}}/><br/>
+        <div className="login_container">
+            <form onSubmit={handleLogin} className="w-25">
+                <label>User Name</label>
+                <input id="login" typex="text" placeholder="Login" required className="form-control" value={userName} onChange={(event)=>{setUsername(event.target.value)}}/><br/>
+                
+                <label>Password</label>
+                <input id="password" placeholder="Password" type="password" className="form-control" required value={passName} onChange={(event)=>{setPass(event.target.value)}}/><br/>
 
-            <input type="submit" value="Log in"/>
-            {props.loggedIn ? <p className="text-success">Logged in</p> : <p>Not logged in</p>}
-        </form>
+                <input className="btn-light" type="submit" value="Log in"/>
+                {props.loggedIn ? <p className="text-success">Logged in</p> : <p>Not logged in</p>}
+            </form>
+        </div>
     )
+
 }

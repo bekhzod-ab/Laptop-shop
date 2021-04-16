@@ -27,7 +27,7 @@ export default function Products({loggedIn}) {
     if(!loggedIn) {
         return(
             
-                <div>
+                <div className="d-flex justify-content-center">
                     <h2> Your are not logged </h2>
                     <button onClick={LoginHandler}>Login</button> or <button onClick={RegisterHandler}>Sign Up</button>
                 </div>
