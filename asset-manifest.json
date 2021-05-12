@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/laptop-shop/static/css/main.dab166c2.chunk.css",
-    "main.js": "/laptop-shop/static/js/main.46ca8b49.chunk.js",
-    "main.js.map": "/laptop-shop/static/js/main.46ca8b49.chunk.js.map",
+    "main.js": "/laptop-shop/static/js/main.ebb798c2.chunk.js",
+    "main.js.map": "/laptop-shop/static/js/main.ebb798c2.chunk.js.map",
     "runtime-main.js": "/laptop-shop/static/js/runtime-main.a10f3acb.js",
     "runtime-main.js.map": "/laptop-shop/static/js/runtime-main.a10f3acb.js.map",
     "static/js/2.51793074.chunk.js": "/laptop-shop/static/js/2.51793074.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a10f3acb.js",
     "static/js/2.51793074.chunk.js",
     "static/css/main.dab166c2.chunk.css",
-    "static/js/main.46ca8b49.chunk.js"
+    "static/js/main.ebb798c2.chunk.js"
   ]
 }
