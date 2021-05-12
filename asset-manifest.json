@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.dab166c2.chunk.css",
-    "main.js": "/static/js/main.2760b7bd.chunk.js",
-    "main.js.map": "/static/js/main.2760b7bd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e60f9ed8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e60f9ed8.js.map",
-    "static/js/2.51793074.chunk.js": "/static/js/2.51793074.chunk.js",
-    "static/js/2.51793074.chunk.js.map": "/static/js/2.51793074.chunk.js.map",
-    "static/js/3.e136825d.chunk.js": "/static/js/3.e136825d.chunk.js",
-    "static/js/3.e136825d.chunk.js.map": "/static/js/3.e136825d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.dab166c2.chunk.css.map": "/static/css/main.dab166c2.chunk.css.map",
-    "static/js/2.51793074.chunk.js.LICENSE.txt": "/static/js/2.51793074.chunk.js.LICENSE.txt"
+    "main.css": "/laptop-shop/static/css/main.dab166c2.chunk.css",
+    "main.js": "/laptop-shop/static/js/main.2760b7bd.chunk.js",
+    "main.js.map": "/laptop-shop/static/js/main.2760b7bd.chunk.js.map",
+    "runtime-main.js": "/laptop-shop/static/js/runtime-main.a10f3acb.js",
+    "runtime-main.js.map": "/laptop-shop/static/js/runtime-main.a10f3acb.js.map",
+    "static/js/2.51793074.chunk.js": "/laptop-shop/static/js/2.51793074.chunk.js",
+    "static/js/2.51793074.chunk.js.map": "/laptop-shop/static/js/2.51793074.chunk.js.map",
+    "static/js/3.e136825d.chunk.js": "/laptop-shop/static/js/3.e136825d.chunk.js",
+    "static/js/3.e136825d.chunk.js.map": "/laptop-shop/static/js/3.e136825d.chunk.js.map",
+    "index.html": "/laptop-shop/index.html",
+    "static/css/main.dab166c2.chunk.css.map": "/laptop-shop/static/css/main.dab166c2.chunk.css.map",
+    "static/js/2.51793074.chunk.js.LICENSE.txt": "/laptop-shop/static/js/2.51793074.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e60f9ed8.js",
+    "static/js/runtime-main.a10f3acb.js",
     "static/js/2.51793074.chunk.js",
     "static/css/main.dab166c2.chunk.css",
     "static/js/main.2760b7bd.chunk.js"
